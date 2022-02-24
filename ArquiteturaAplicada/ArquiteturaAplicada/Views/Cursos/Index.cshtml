@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Cursos";
+}
+<h1 class ="display-4">Cursos</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Conteúdo</th>
+      <th scope="col">Valor</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Básico</td>
+      <td>DDD, SOLID</td>
+      <td>150.00</td>
+      <td><div class="d-grid gap-2 d-md-block">
+  <a class="btn btn-primary" role="button" asp-controller="Cursos" asp-action="ConfirmaçãoComprar">Comprar</a>
+  <a class="btn btn-primary" role="button">Conhecer</a>
+</div></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Intermediário</td>
+      <td>Clean Code</td>
+      <td>250.00</td>
+        <td><div class="d-grid gap-2 d-md-block">
+   <a class="btn btn-primary" role="button" asp-controller="Cursos" asp-action="ConfirmaçãoComprar">Comprar</a>
+  <a class="btn btn-primary" role="button">Conhecer</a>
+</div></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td >Avançado</td>
+      <td>Geral</td>
+      <td>360.00</td>
+        <td><div class="d-grid gap-2 d-md-block">
+  <a class="btn btn-primary" role="button" asp-controller="Cursos" asp-action="ConfirmaçãoComprar">Comprar</a>
+  <a class="btn btn-primary" role="button">Conhecer</a>
+</div></td>
+    </tr>
+  </tbody>
+</table>
